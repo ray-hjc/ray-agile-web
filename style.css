@@ -1,0 +1,123 @@
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin:30px auto;
+	padding: 0;
+	background-color: white;
+}
+
+#wrapper{
+	margin:0 auto;
+	background-color: white;
+	width:70%;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	position: fixed;
+	width: 70%;
+	z-index: 100; 
+}
+
+nav{
+	width:70%;
+	text-align: center;
+	position: fixed;
+	background-color: rgba(191,191,191,0.5);
+	color:white;
+	z-index: 100;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article-border{
+    position: absolute;
+	width:70%;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+
+.nav-item{
+	display: inline;
+	padding:0px 30px;
+	line-height: 30px;
+}
+
+
+
+
+article{
+	display: inline;
+	padding-top: 190px;
+    margin-bottom: 100px;
+    display: block;
+    position: relative;
+}
+
+h2,h3,p {
+	padding:0;
+	margin:0;
+	padding-left:12px;
+}
+
+
+h2{
+	color:black;
+}
+
+h3{
+	color:black;
+	opacity: 0.4;
+}
+p{
+	color:black;
+	opacity: 0.5;
+	padding-top:10px; 
+}
+
+
+.project-title{
+	margin-left: 38px;
+	width:25%;
+}
+
+.project-content{
+	background-color: rgba(191,191,191,0.2);
+	float:left;
+	margin-left: 39px;
+	width:25%;
+	height: 350px;
+	margin-bottom: 60px;
+	margin-top: 10px
+}
+
+.project-picture{
+	background-color: rgba(191,191,191,0.2);
+	float:right;
+	margin-right: 39px;
+	width:65%;
+	height: 350px;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 10px
+}
+
+
+/* selective for the frame so it won't block the content underneath */ 
+/* create a box/div block the top and bottom */
+/* play with z-index(layer and transparancy) to create layers */
+/* transparancy */
