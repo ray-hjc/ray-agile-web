@@ -20,6 +20,19 @@ body{
 	position: fixed;
 	width: 70%;
 	z-index: 100; 
+	pointer-events: none;
+	margin-top: -2%
+}
+
+.tl{
+	display: block;
+    margin-left: 0%;
+    margin-top: 3.5%;
+	position: fixed;
+	width: 100%;
+	z-index: 101; 
+	pointer-events: none;
+
 }
 
 nav{
@@ -41,13 +54,13 @@ nav{
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: black;
+    color: grey;
 }
 
 
@@ -116,6 +129,30 @@ p{
 	margin-top: 10px
 }
 
+#pp1{
+	background-image: url(image/1.png);
+	background-size: cover;
+}
+#pp2{
+	background-image: url(image/2.png);
+	background-size: 100%;
+}
+#pp3{
+	background-image: url(image/3.png);
+	background-size: 100%;
+}
+#pp4{
+	background-image: url(image/4.png);
+	background-size: 100%;
+}
+#pp5{
+	background-image: url(image/5.jpg);
+	background-size: 100%;
+}
+#pp6{
+	background-image: url(image/6.jpg);
+	background-size: 100%;
+}
 
 /* selective for the frame so it won't block the content underneath */ 
 /* create a box/div block the top and bottom */
